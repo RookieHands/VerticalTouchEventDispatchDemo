@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hudson.worktest.MainActivity">
+
+    <com.hudson.worktest.MyVerticalScrollView
+        android:orientation="vertical"
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:background="#55000000"
+            android:src="@drawable/a0"
+            android:scaleType="matrix"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
+    </com.hudson.worktest.MyVerticalScrollView>
+
+</RelativeLayout>
